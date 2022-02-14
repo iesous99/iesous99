@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: papayawhip;
+    font-size: 1.6rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+main {
+    min-width: 32rem;
+    max-width: 73rem;
+    background-color: azure;
+    padding: 1rem;
+    border: 0.01rem solid black;
+    box-shadow: 0.3rem 1rem 2rem black;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+h3 ~ p {
+    /* margin-top: 4rem; */
+}
+
+.imagenes {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+
+    min-height: 200px;
+    margin: 3rem 0rem;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.warning {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 1rem 3rem 3rem 5rem;
+    font-size: 1.2rem;
+}
+h3, h4 {
+    margin-bottom: 2rem;
+}
+h3 ~ p {
+    margin-left: 1rem;
+}
+p {
+    margin-bottom: 2rem;
+}
